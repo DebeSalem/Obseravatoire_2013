@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+body, p, legend, label, input {
+font: normal 8pt verdana, helvetica, sans-serif;
+}
+fieldset {
+padding: 10px;
+border: 5px #00008b solid;
+}
+legend {
+font-weight: bold;
+color: #00008b;
+}
+form label {
+float: left;
+width: 200px;
+margin: 3px 0px 0px 0px;
+}
+form input.sansLabel {
+margin-left: 200px;
+}
+form .requis {
+color: #c00;
+}
+th, td {
+	text-align : left;
+}
+h1{
+	color : #00008b;
+	font-family : verdana; 
+}
+.collection input,.collection select{height:2.0em;font-size:1.384em;border-radius:4px;border:1px solid #b8b8b8;padding:0 .5em 0 .5em;vertical-align:middle;line-height:1.384em;color:#666;box-shadow:inset -1px 1px 2px rgba(0,0,0,0.2)}
+.collection select{padding:.4em;height:2.4em}
+.oblig{
+	color : red;
+	font-weight : bold;
+}
+.faildLogin{
+	font-weight : bold;
+	color : red;
+	background-color : #00008b
+}
